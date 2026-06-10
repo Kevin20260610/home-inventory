@@ -1,0 +1,22 @@
+{
+  "name": "家庭物品存放管理",
+  "short_name": "物品管理",
+  "description": "管理多套住宅中的物品、房间和家具存放位置。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FAF8F5",
+  "theme_color": "#4A7C59",
+  "lang": "zh-CN",
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": []
+}
