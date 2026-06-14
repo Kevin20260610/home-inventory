@@ -1,0 +1,15 @@
+services:
+  home-inventory:
+    container_name: home-inventory
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    networks:
+      - home-inventory-net
+
+networks:
+  home-inventory-net:
+    driver: bridge

@@ -1,0 +1,14 @@
+node_modules
+dist
+android
+android/.gradle
+.gradle
+build
+*.zip
+.git
+.gitignore
+.trae
+.DS_Store
+npm-debug.log
+.vscode
+.idea
