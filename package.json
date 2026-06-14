@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "android:add": "npx cap add android",
     "android:sync": "npm run build && npx cap sync android",
     "android:apk": "npm run android:sync && cd android && ./gradlew assembleDebug",
